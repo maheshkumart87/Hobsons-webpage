@@ -4,7 +4,6 @@ describe('Hobsons homepage test', () => {
     
     //Should be on Hobsons URL which includes 'hobsons' in it
     cy.url().should('include', 'hobsons')
-    //cy.get('span.fas.fa-chevron-down').click({ force: true})
 
   })
 
